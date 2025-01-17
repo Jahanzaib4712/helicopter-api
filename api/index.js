@@ -23,7 +23,7 @@ app.get('/api/helicopters', (req, res) => {
 
 // Get a single helicopter by ID
 app.get('/api/helicopters/:id', (req, res) => {
-    const helicopter = helicopters.find(h => h.id === req.params.id);
+    const helicopter = helicopters.find(h => h.id === parseInt(req.params.id));
     if (helicopter) {
         res.json(helicopter);
     } else {

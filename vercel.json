@@ -1,0 +1,10 @@
+{
+    "functions": {
+      "api/index.js": {
+        "includeFiles": [
+          "helicopters.json"
+        ]
+      }
+    }
+  }
+  
