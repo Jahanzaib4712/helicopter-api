@@ -1,14 +1,15 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const app = express();
 
-// Middleware to parse JSON
 app.use(express.json());
 
-// Load helicopters data
+// Load helicopters data from public folder
+const dataPath = path.join(__dirname, '..', 'public', 'helicopters.json');  // Adjust path as needed
 console.log("Loading helicopters data...");
-const data = JSON.parse(fs.readFileSync('helicopters.json', 'utf-8'));
-const helicopters = data.helicopters || [];  // Access the 'helicopters' array
+const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+const helicopters = data.helicopters || [];
 console.log("Helicopters data loaded successfully");
 
 // Root route
@@ -23,7 +24,7 @@ app.get('/api/helicopters', (req, res) => {
 
 // Get a single helicopter by ID
 app.get('/api/helicopters/:id', (req, res) => {
-    const helicopter = helicopters.find(h => h.id === parseInt(req.params.id));
+    const helicopter = helicopters.find(h => h.id === req.params.id);
     if (helicopter) {
         res.json(helicopter);
     } else {
