@@ -1,0 +1,225 @@
+{
+    "helicopters": [
+      {
+        "id": "1",
+        "name": "Bell 206 JetRanger",
+        "imagePath": "https://example.com/images/bell-206.jpg",
+        "price": "1200000",
+        "description": "A reliable single-engine helicopter perfect for training and light transport.",
+        "features": ["Single-engine", "Five seats", "Cruise speed: 120 knots"],
+        "category": "Rental",
+        "stockLevel": 5,
+        "isFeatured": true
+      },
+      {
+        "id": "2",
+        "name": "Robinson R44 Raven II",
+        "imagePath": "https://example.com/images/robinson-r44.jpg",
+        "price": "700000",
+        "description": "A four-seat helicopter ideal for personal use and sightseeing.",
+        "features": ["Four seats", "Compact design", "Affordable operation"],
+        "category": "Sale",
+        "stockLevel": 8,
+        "isFeatured": true
+      },
+      {
+        "id": "3",
+        "name": "Airbus H125",
+        "imagePath": "https://example.com/images/airbus-h125.jpg",
+        "price": "3000000",
+        "description": "A versatile helicopter suitable for high-altitude operations.",
+        "features": ["High altitude", "Six seats", "Powerful engine"],
+        "category": "Rental",
+        "stockLevel": 3,
+        "isFeatured": false
+      },
+      {
+        "id": "4",
+        "name": "Sikorsky S-76",
+        "imagePath": "https://example.com/images/sikorsky-s76.jpg",
+        "price": "8000000",
+        "description": "A luxury twin-engine helicopter for VIP transport.",
+        "features": ["Twin-engine", "12 seats", "Premium interiors"],
+        "category": "Sale",
+        "stockLevel": 2,
+        "isFeatured": true
+      },
+      {
+        "id": "5",
+        "name": "Bell 429 GlobalRanger",
+        "imagePath": "https://example.com/images/bell-429.jpg",
+        "price": "5500000",
+        "description": "A state-of-the-art helicopter for corporate and EMS use.",
+        "features": ["Twin-engine", "Eight seats", "Advanced avionics"],
+        "category": "Rental",
+        "stockLevel": 4,
+        "isFeatured": false
+      },
+      {
+        "id": "6",
+        "name": "Robinson R66 Turbine",
+        "imagePath": "https://example.com/images/robinson-r66.jpg",
+        "price": "950000",
+        "description": "A turbine-powered helicopter offering exceptional reliability.",
+        "features": ["Single-engine", "Five seats", "Efficient performance"],
+        "category": "Sale",
+        "stockLevel": 6,
+        "isFeatured": true
+      },
+      {
+        "id": "7",
+        "name": "MD 500E",
+        "imagePath": "https://example.com/images/md-500e.jpg",
+        "price": "1600000",
+        "description": "A high-performance helicopter with a sleek design.",
+        "features": ["Single-engine", "Five seats", "Compact and fast"],
+        "category": "Rental",
+        "stockLevel": 7,
+        "isFeatured": false
+      },
+      {
+        "id": "8",
+        "name": "Leonardo AW109",
+        "imagePath": "https://example.com/images/leonardo-aw109.jpg",
+        "price": "7500000",
+        "description": "A twin-engine helicopter known for its speed and style.",
+        "features": ["Twin-engine", "VIP interiors", "Exceptional speed"],
+        "category": "Sale",
+        "stockLevel": 3,
+        "isFeatured": true
+      },
+      {
+        "id": "9",
+        "name": "Enstrom 480B",
+        "imagePath": "https://example.com/images/enstrom-480b.jpg",
+        "price": "1400000",
+        "description": "A durable helicopter designed for training and utility missions.",
+        "features": ["Single-engine", "Five seats", "Reliable performance"],
+        "category": "Rental",
+        "stockLevel": 10,
+        "isFeatured": false
+      },
+      {
+        "id": "10",
+        "name": "Eurocopter EC135",
+        "imagePath": "https://example.com/images/eurocopter-ec135.jpg",
+        "price": "6800000",
+        "description": "A twin-engine helicopter widely used for EMS and law enforcement.",
+        "features": ["Twin-engine", "Spacious cabin", "Advanced safety features"],
+        "category": "Sale",
+        "stockLevel": 2,
+        "isFeatured": true
+      },
+      {
+        "id": "11",
+        "name": "Kawasaki BK117",
+        "imagePath": "https://example.com/images/kawasaki-bk117.jpg",
+        "price": "5200000",
+        "description": "A versatile helicopter for utility and rescue operations.",
+        "features": ["Twin-engine", "Nine seats", "Durable design"],
+        "category": "Rental",
+        "stockLevel": 4,
+        "isFeatured": false
+      },
+      {
+        "id": "12",
+        "name": "AgustaWestland AW139",
+        "imagePath": "https://example.com/images/agustawestland-aw139.jpg",
+        "price": "12000000",
+        "description": "A medium-lift helicopter offering superior performance.",
+        "features": ["Twin-engine", "15 seats", "Long range"],
+        "category": "Sale",
+        "stockLevel": 1,
+        "isFeatured": true
+      },
+      {
+        "id": "13",
+        "name": "Bell 505 Jet Ranger X",
+        "imagePath": "https://example.com/images/bell-505.jpg",
+        "price": "1200000",
+        "description": "A compact helicopter with excellent performance and comfort.",
+        "features": ["Single-engine", "Five seats", "Affordable"],
+        "category": "Rental",
+        "stockLevel": 8,
+        "isFeatured": false
+      },
+      {
+        "id": "14",
+        "name": "Airbus H145",
+        "imagePath": "https://example.com/images/airbus-h145.jpg",
+        "price": "9000000",
+        "description": "A multi-purpose helicopter perfect for SAR and EMS missions.",
+        "features": ["Twin-engine", "12 seats", "Highly versatile"],
+        "category": "Sale",
+        "stockLevel": 2,
+        "isFeatured": true
+      },
+      {
+        "id": "15",
+        "name": "Hughes 500D",
+        "imagePath": "https://example.com/images/hughes-500d.jpg",
+        "price": "1450000",
+        "description": "A lightweight helicopter known for its agility and speed.",
+        "features": ["Single-engine", "Four seats", "Fast and agile"],
+        "category": "Rental",
+        "stockLevel": 6,
+        "isFeatured": false
+      },
+      {
+        "id": "16",
+        "name": "Sikorsky UH-60 Black Hawk",
+        "imagePath": "https://example.com/images/black-hawk.jpg",
+        "price": "25000000",
+        "description": "A legendary helicopter used for military and utility purposes.",
+        "features": ["Twin-engine", "20 seats", "Heavy-lift capability"],
+        "category": "Sale",
+        "stockLevel": 1,
+        "isFeatured": true
+      },
+      {
+        "id": "17",
+        "name": "Kamov Ka-32",
+        "imagePath": "https://example.com/images/kamov-ka32.jpg",
+        "price": "8000000",
+        "description": "A co-axial rotor helicopter designed for heavy lifting.",
+        "features": ["Co-axial rotors", "14 seats", "Heavy-duty design"],
+        "category": "Rental",
+        "stockLevel": 3,
+        "isFeatured": false
+      },
+      {
+        "id": "18",
+        "name": "Eurocopter Tiger",
+        "imagePath": "https://example.com/images/eurocopter-tiger.jpg",
+        "price": "35000000",
+        "description": "A combat helicopter with advanced weaponry and agility.",
+        "features": ["Twin-engine", "Two seats", "Military-grade features"],
+        "category": "Sale",
+        "stockLevel": 1,
+        "isFeatured": true
+      },
+      {
+        "id": "19",
+        "name": "Westland Lynx",
+        "imagePath": "https://example.com/images/westland-lynx.jpg",
+        "price": "15000000",
+        "description": "A multi-role helicopter known for its speed and versatility.",
+        "features": ["Twin-engine", "10 seats", "Fastest military helicopter"],
+        "category": "Rental",
+        "stockLevel": 2,
+        "isFeatured": true
+      },
+      {
+        "id": "20",
+        "name": "Boeing CH-47 Chinook",
+        "imagePath": "https://example.com/images/ch-47-chinook.jpg",
+        "price": "32000000",
+        "description": "A heavy-lift helicopter with tandem rotors for maximum capacity.",
+        "features": ["Twin-engine", "55 seats", "Heavy-lift capabilities"],
+        "category": "Sale",
+        "stockLevel": 1,
+        "isFeatured": true
+      }
+    ]
+  }
+  
