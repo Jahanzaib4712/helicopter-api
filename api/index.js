@@ -14,8 +14,9 @@ console.log("Helicopters data loaded successfully");
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Helicopter API!');
+    res.send('<h1>Welcome to the Helicopter API!</h1><p>Use <code>/api/helicopters</code> to view all helicopters.</p>');
 });
+
 
 // Get all helicopters
 app.get('/api/helicopters', (req, res) => {
